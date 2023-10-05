@@ -1,0 +1,17 @@
+<svg id="Menu" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28.234" height="27.137" viewBox="0 0 28.234 27.137">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Прямоугольник_28" data-name="Прямоугольник 28" width="28.234" height="27.137" transform="translate(0 0)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <path id="Контур_11" data-name="Контур 11" d="M1.5,1.5h0Z" transform="translate(0 0)" fill="#fff"/>
+  <g id="Сгруппировать_20" data-name="Сгруппировать 20" transform="translate(0 0)">
+    <g id="Сгруппировать_19" data-name="Сгруппировать 19" clip-path="url(#clip-path)">
+      <path id="Контур_12" data-name="Контур 12" d="M26.734,3H1.5a1.5,1.5,0,0,1,0-3H26.734a1.5,1.5,0,0,1,0,3" fill="#fff"/>
+      <line id="Линия_7" data-name="Линия 7" x2="25.234" transform="translate(1.5 13.538)" fill="#f4f4f4"/>
+      <path id="Контур_13" data-name="Контур 13" d="M26.734,15.038H1.5a1.5,1.5,0,0,1,0-3H26.734a1.5,1.5,0,0,1,0,3" fill="#fff"/>
+      <line id="Линия_8" data-name="Линия 8" x2="25.234" transform="translate(1.5 25.637)" fill="#f4f4f4"/>
+      <path id="Контур_14" data-name="Контур 14" d="M26.734,27.137H1.5a1.5,1.5,0,0,1,0-3H26.734a1.5,1.5,0,0,1,0,3" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Резиденция Николинские ключи</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/dist/output.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="grid grid-cols-1 grid-rows-layout min-h-screen">
+      <header class="bg-brand-bg text-white relative">
+        <div
+          class="fluid-container grid grid-cols-2 md:grid-cols-headerTablet lg:grid-cols-header gap-4 justify-between h-full"
+        >
+          <a href="/" class="flex items-center">
+            <img
+              src="/public/cottages-nn-logo.svg"
+              width="63"
+              height="46"
+              alt="Резиденция Николинские ключи"
+              class="mr-2.5"
+            />
+            <span
+              class="font-serif font-normal text-lg leading-5 hidden md:inline"
+              >Резиденция<br />Николинские ключи</span
+            >
+          </a>
+
+          <nav
+            class="items-center justify-center font-sans font-semibold uppercase text-sm hidden lg:flex"
+          >
+            <a href="/genplan/" class="mr-8">ГЕНПЛАН</a>
+            <a href="/projects/" class="mr-8">ПРОЕКТЫ</a>
+            <a href="/sales/">ОТДЕЛ ПРОДАЖ</a>
+          </nav>
+
+          <div class="flex items-center justify-end">
+            <span class="font-sans text-base hidden md:block"
+              >8 800 999 99 99</span
+            >
+            <div class="btn btn--send ml-8 !hidden md:!flex">
+              ОТПРАВИТЬ ЗАЯВКУ
+            </div>
+            <a href="tel:" class="md:hidden"
+              ><img src="/public/icon-phone.svg" width="32" height="32" alt=""
+            /></a>
+            <a href="" class="md:hidden ml-8 mr-3"
+              ><img
+                src="/public/icon-menu.svg"
+                width="32"
+                height="32"
+                alt=""
+                id="iconMenu"
+            /></a>
+          </div>
+        </div>
+
+        <div class="header-mobile-menu">
+          <div class="header-mobile-menu__wrapper">
+            <a
+              href=""
+              class="block text-center text-lg font-sans font-semibold uppercase mb-8"
+              >ГЕНПЛАН</a
+            >
+            <a
+              href=""
+              class="block text-center text-lg font-sans font-semibold uppercase mb-8"
+              >ПРОЕКТЫ</a
+            >
+            <a
+              href=""
+              class="block text-center text-lg font-sans font-semibold uppercase mb-8"
+              >ОТДЕЛ ПРОДАЖ</a
+            >
+            <div class="btn btn--send mx-auto mt-10 w-52">ОТПРАВИТЬ ЗАЯВКУ</div>
+            <div class="header-mobile-menu__hide" id="iconHideMenu"></div>
+          </div>
+        </div>
+      </header>
+
+      <div class="mt-12 mb-12">
+        <div class="fluid-container mx-auto mb-18">
+          <h1>Коттедж под отделку «Леванте»</h1>
+
+          <div class="md:grid md:grid-cols-12 gap-4">
+            <div
+              class="md:col-span-6 md:mb-0 mb-10 rounded-br-6xl img-mobile relative"
+            >
+              <div
+                id="projectImageSwiper"
+                class="rounded-tr-6xl h-80 md:h-full"
+              >
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <img
+                      src="/public/variants.jpg"
+                      alt="Варианты отделки"
+                      class="swiper-slide object-cover"
+                    />
+                    <img
+                      src="/public/genplan.jpg"
+                      alt="Варианты отделки"
+                      class="swiper-slide object-cover"
+                    />
+                    <img
+                      src="/public/infra.jpg"
+                      alt="Варианты отделки"
+                      class="swiper-slide object-cover"
+                    />
+                  </div>
+                </div>
+
+                <div
+                  id="projectImageSwiperNext"
+                  class="swiper-button-next !hidden md:!flex"
+                ></div>
+                <div
+                  id="projectImageSwiperPrev"
+                  class="swiper-button-prev !hidden md:!flex"
+                ></div>
+              </div>
+              <div
+                class="swiper projectThumbsSwiper !absolute left-0 bottom-4 !w-full z-10"
+              >
+                <div class="swiper-wrapper justify-center">
+                  <img
+                    src="/public/variants.jpg"
+                    alt="Варианты отделки"
+                    class="swiper-slide object-cover !w-16 !h-16 cursor-pointer"
+                  />
+                  <img
+                    src="/public/genplan.jpg"
+                    alt="Варианты отделки"
+                    class="swiper-slide object-cover !w-16 !h-16 cursor-pointer"
+                  />
+                  <img
+                    src="/public/infra.jpg"
+                    alt="Варианты отделки"
+                    class="swiper-slide object-cover !w-16 !h-16 cursor-pointer"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="lg:col-start-8 lg:col-span-5 md:col-start-7 md:col-span-6"
+            >
+              <div class="font-sans font-semibold text-xl mb-7">
+                Коттедж под отделку «Леванте»
+              </div>
+              <p class="mb-8">
+                Эффективное использование пространства, планировка помещений
+                дает свободу и удобство для всех членов семьи.
+              </p>
+
+              <dl class="table mb-11">
+                <dt>Площадь дома</dt>
+                <dd>458,1 м<sup>2</sup></dd>
+
+                <dt>Площадь участка</dt>
+                <dd>от 10 до 12 соток</dd>
+
+                <dt>Этажей</dt>
+                <dd>2 этажа + цоколь</dd>
+
+                <dt>Спален</dt>
+                <dd>4</dd>
+              </dl>
+
+              <div
+                class="block md:flex justify-between items-start md:items-center mb-10"
+              >
+                <div class="block md:flex items-center mr-5">
+                  <div class="font-sans font-bold text-2xl mr-5">
+                    14 000 500 ₽
+                  </div>
+                  <div class="font-sans font-bold text-lg line-through">
+                    14 000 500 ₽
+                  </div>
+                </div>
+                <div class="font-sans font-bold text-2xl text-tosale">
+                  Свободно
+                </div>
+              </div>
+
+              <div
+                class="block md:flex justify-between items-start md:items-center mb-10"
+              >
+                <div class="block md:flex items-center mr-5">
+                  <div class="font-sans font-bold text-2xl mr-5">
+                    14 000 500 ₽
+                  </div>
+                  <div class="font-sans font-bold text-lg line-through">
+                    14 000 500 ₽
+                  </div>
+                </div>
+                <div class="font-sans font-bold text-2xl text-soled">
+                  Продано
+                </div>
+              </div>
+
+              <div class="btn btn-xl btn--send w-full">ОТПРАВИТЬ ЗАЯВКУ</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="fluid-container mx-auto">
+          <h2 class="text-center">Генплан</h2>
+          <div class="genplan scrollbar relative h-[730px] overflow-x-auto">
+            <div class="genplan-item" style="top: 334px; left: 127px">
+              <div class="genplan-num">1</div>
+              <div class="genplan-card">
+                <div class="genplan-card__body">
+                  <img src="/public/about.jpg" alt="КОТТЕДЖ «ЛЕВАНТЕ» 34" />
+                  <div class="genplan-card__text">
+                    <b>КОТТЕДЖ «ЛЕВАНТЕ» 34</b>
+                    <div>Площадь участка 400м²</div>
+                    <div>Площадь дом 400м²</div>
+                    <em>СВОБОДНО</em>
+                  </div>
+                </div>
+
+                <a href="/detail/" class="btn w-full">ПОДРОБНЕЕ</a>
+              </div>
+            </div>
+            <div class="genplan-item" style="top: 371px; left: 160px">
+              <div class="genplan-num">2</div>
+              <div class="genplan-card">
+                <div class="genplan-card__body">
+                  <img src="/public/about.jpg" alt="КОТТЕДЖ «ЛЕВАНТЕ» 34" />
+                  <div class="genplan-card__text">
+                    <b>КОТТЕДЖ «ЛЕВАНТЕ» 34</b>
+                    <div>Площадь участка 400м²</div>
+                    <div>Площадь дом 400м²</div>
+                    <em>СВОБОДНО</em>
+                  </div>
+                </div>
+
+                <a href="/detail/" class="btn w-full">ПОДРОБНЕЕ</a>
+              </div>
+            </div>
+            <div class="genplan-item" style="top: 406px; left: 195px">
+              <div class="genplan-num">3</div>
+              <div class="genplan-card">
+                <div class="genplan-card__body">
+                  <img src="/public/about.jpg" alt="КОТТЕДЖ «ЛЕВАНТЕ» 34" />
+                  <div class="genplan-card__text">
+                    <b>КОТТЕДЖ «ЛЕВАНТЕ» 34</b>
+                    <div>Площадь участка 400м²</div>
+                    <div>Площадь дом 400м²</div>
+                    <em>СВОБОДНО</em>
+                  </div>
+                </div>
+
+                <a href="/detail/" class="btn w-full">ПОДРОБНЕЕ</a>
+              </div>
+            </div>
+            <div class="genplan-item" style="top: 445px; left: 232px">
+              <div class="genplan-num">4</div>
+              <div class="genplan-card">
+                <div class="genplan-card__body">
+                  <img src="/public/about.jpg" alt="КОТТЕДЖ «ЛЕВАНТЕ» 34" />
+                  <div class="genplan-card__text">
+                    <b>КОТТЕДЖ «ЛЕВАНТЕ» 34</b>
+                    <div>Площадь участка 400м²</div>
+                    <div>Площадь дом 400м²</div>
+                    <em>СВОБОДНО</em>
+                  </div>
+                </div>
+
+                <a href="/detail/" class="btn w-full">ПОДРОБНЕЕ</a>
+              </div>
+            </div>
+            <div
+              class="genplan-item genplan-item--soled"
+              style="top: 517px; left: 354px"
+            >
+              <div class="genplan-num">5</div>
+              <div class="genplan-card">
+                <div class="genplan-card__body">
+                  <img src="/public/about.jpg" alt="КОТТЕДЖ «ЛЕВАНТЕ» 34" />
+                  <div class="genplan-card__text">
+                    <b>КОТТЕДЖ «ЛЕВАНТЕ» 34</b>
+                    <div>Площадь участка 400м²</div>
+                    <div>Площадь дом 400м²</div>
+                    <em>ПРОДАНО</em>
+                  </div>
+                </div>
+
+                <a href="/detail/" class="btn w-full">ПОДРОБНЕЕ</a>
+              </div>
+            </div>
+            <div
+              class="genplan-item genplan-item--tosale"
+              style="top: 520px; left: 489px"
+            >
+              <div class="genplan-num">6</div>
+              <div class="genplan-card">
+                <div class="genplan-card__body">
+                  <img src="/public/about.jpg" alt="КОТТЕДЖ «ЛЕВАНТЕ» 34" />
+                  <div class="genplan-card__text">
+                    <b>КОТТЕДЖ «ЛЕВАНТЕ» 34</b>
+                    <div>Площадь участка 400м²</div>
+                    <div>Площадь дом 400м²</div>
+                    <em>СВОБОДНО</em>
+                  </div>
+                </div>
+
+                <a href="/detail/" class="btn w-full">ПОДРОБНЕЕ</a>
+              </div>
+            </div>
+            <img
+              src="/public/genplan-img.png"
+              alt="Генплан"
+              class="genplan-image min-w-[1248px] w-full"
+            />
+          </div>
+        </div>
+      </div>
+
+      <footer class="bg-brand-bg text-white">
+        <div
+          class="fluid-container mx-auto md:grid grid-cols-2 h-full pt-9 md:pt-0"
+        >
+          <a
+            href="/"
+            class="flex items-center justify-center md:justify-start mb-8 md:mb-0"
+          >
+            <img
+              src="/public/cottages-nn-logo.svg"
+              width="63"
+              height="46"
+              alt="Резиденция Николинские ключи"
+              class="mr-2.5"
+            />
+            <span class="font-serif font-normal text-lg leading-5 inline"
+              >Резиденция<br />Николинские ключи</span
+            >
+          </a>
+
+          <div class="md:flex items-center justify-end">
+            <span
+              class="font-sans text-base text-center md:text-left block mb-8 md:mb-0"
+              >8 800 999 99 99</span
+            >
+            <div class="btn btn--send md:ml-8 w-48 md:w-auto mx-auto md:mx-0">
+              ОТПРАВИТЬ ЗАЯВКУ
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <div class="modal-form modal">
+        <div class="modal-body">
+          <div class="w-[530px] mx-auto">
+            <div class="form">
+              <div
+                class="font-serif font-normal text-3xl md:text-5xl text-center mb-11"
+              >
+                Отправить заявку
+              </div>
+              <form action="/dist/response.json" method="POST" novalidate>
+                <div class="input">
+                  <input name="FIO" id="fio" type="text" value="" required />
+                  <label for="fio">Ваши ФИО</label>
+                </div>
+                <div class="input">
+                  <input
+                    name="PHONE"
+                    id="phone"
+                    type="text"
+                    value=""
+                    required
+                  />
+                  <label for="phone">Ваш телефон</label>
+                </div>
+
+                <input type="hidden" name="OBJECT" value="123" id="objectId" />
+
+                <button type="submit" class="btn btn-xl w-full">
+                  ОТПРАВИТЬ ЗАЯВКУ
+                </button>
+              </form>
+            </div>
+            <div class="result"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/src/script.js"></script>
+  </body>
+</html>
